@@ -1,0 +1,48 @@
+/* Adjust main content layout */
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 10%;
+    min-height: 80vh;
+    gap: 2rem;
+  }
+  
+  /* Increase and style image */
+  .image-content {
+    max-width: 40%;
+  }
+  
+  .main-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .main-image:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Footer spacing */
+  .footer {
+    background-color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    border-top: 2px solid #d7f3d7;
+    margin-top: 2rem;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
